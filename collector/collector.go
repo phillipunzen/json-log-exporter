@@ -265,7 +265,7 @@ func (this *Collector) Run() {
 		t, err := tail.TailFile(f, tail.Config{
 			Follow:    true,
 			ReOpen:    true,
-			Poll:      true,
+			Poll:      this.cfg.UsePolling,
 			MustExist: true,
 		})
 

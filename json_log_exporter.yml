@@ -9,6 +9,7 @@ exports:
 log_groups:
   - name: requests
     subsystem: requests
+    use_polling: false
     files:
       - /var/log/thread1.log
       - /var/log/thread2.log
@@ -52,6 +53,7 @@ log_groups:
         age_buckets: 10
   - name: actions
     subsystem: actions
+    use_polling: false
     files:
       - /var/log/actions.log
     labels:

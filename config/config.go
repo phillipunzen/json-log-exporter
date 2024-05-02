@@ -25,6 +25,7 @@ type LogGroupConfig struct {
 	SourceFiles  []string          `yaml:"files"`
 	GlobalLabels map[string]string `yaml:"labels"`
 	Metrics      []*MetricConfig   `yaml:"metrics"`
+	UsePolling   bool              `yaml:"use_polling"`
 }
 
 type MetricConfig struct {
