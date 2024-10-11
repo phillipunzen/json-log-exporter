@@ -1,7 +1,5 @@
 # JSON Log Exporter
 
-![Build Status](https://travis-ci.com/ashwinikd/json-log-exporter.svg?branch=master "Travis")
-
 Prometheus exporter for JSON logs, written in Go. This uses 
 [hpcloud/tail](https://github.com/hpcloud/tail) for tailing
 the files.
@@ -9,7 +7,7 @@ the files.
 ## Installation & Usage
 Install using following command:
 ```shell
-go install github.com/muety/json-log-exporter@latest
+go install github.com/phillipunzen/json-log-exporter@latest
 ```
 Usage:
 ```
