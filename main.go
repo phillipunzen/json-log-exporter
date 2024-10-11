@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
-	"github.com/ashwinikd/json-log-exporter/collector"
-	"github.com/ashwinikd/json-log-exporter/config"
+	"github.com/phillipunzen/json-log-exporter/collector"
+	"github.com/phillipunzen/json-log-exporter/config"
 	"log"
 	"net"
 	"net/http"
